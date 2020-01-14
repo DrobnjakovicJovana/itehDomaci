@@ -115,22 +115,7 @@ include 'navigacija.php';
       
       </section>
 
- <form method="post" action="upload.php" enctype="multipart/form-data" style="margin-left: 29%; margin-bottom: 20px;">
-        <div class="form-group">
-               <label for="file" class="cols-sm-2 control-label">Dokument :</label>
-           
-                <div class="input-group" style="width: 60%">
-                  <input type="file" class="form-control" name="file" placeholder="Ubacite fajl sa zahtevima"/>
-              </div>
-            </div>
-           
-        <div class="form-group ">
-              <button type="submit" name="file"  class="btn btn-primary btn-md" style="border-radius: 12px;  border: 2px solid #9ccce5; margin-left: 18%; margin-bottom: 5px;" >Ubacite fajl</button>
-              <button type="submit" name="file"  class="btn btn-primary btn-md" style="border-radius: 12px;  border: 2px solid #9ccce5;  margin-bottom: 5px;" ><a href="fajlovi.php" style="text-decoration: none; color: white;">Svi fajlovi</a></button>
-            </div>
 
-
-         </form>
   <?php include 'footer.php'; ?>
   
 
